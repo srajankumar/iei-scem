@@ -15,7 +15,8 @@ const About = () => {
             technology. Our mission is to empower students through workshops,
             hackathons, training, and research projects. Join us to become a
             corporate member upon program completion and excel in your
-            engineering career. Together, let's shape the future of technology!
+            engineering career. Together, let&apos;s shape the future of
+            technology!
           </p>
         </div>
       </div>
