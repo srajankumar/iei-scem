@@ -11,3 +11,22 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #4e8ffd;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3d6dc1;
+}
