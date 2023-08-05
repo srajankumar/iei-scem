@@ -1,10 +1,11 @@
 "use client";
-import data from "@/content/team.json";
+import data from "@/content/team/team.json";
 import Link from "next/link";
 import Slide from "react-reveal/Slide";
+import Image from "next/image";
 
 const Team = () => {
-  const compareRoles = (a: { role: string }, b: { role: string }) => {
+  const compareRoles = (a, b) => {
     const priorityOrder = [
       "Secretary",
       "Associate Secretary",
@@ -51,9 +52,11 @@ const Team = () => {
                   target="_blank"
                   className="flex hover:shadow-2xl flex-col justify-center items-center border-2 bg-[#fefefe] bg-opacity-5 backdrop-blur-xl p-6 rounded-2xl"
                 >
-                  <img
+                  <Image
+                    height={500}
+                    width={500}
                     className="h-40 rounded-full w-40 object-cover object-center mb-6"
-                    src={`https://avatars1.githubusercontent.com/srajankumar`}
+                    src=""
                     alt="content"
                   />
                   <h2 className="text-lg font-poppins text-gray-900 font-medium title-font ">
@@ -72,9 +75,11 @@ const Team = () => {
                   target="_blank"
                   className="flex hover:shadow-2xl flex-col justify-center items-center border-2 bg-[#fefefe] bg-opacity-5 backdrop-blur-xl p-6 rounded-2xl"
                 >
-                  <img
+                  <Image
+                    width={500}
+                    height={500}
                     className="h-40 rounded-full w-40 object-cover object-center mb-6"
-                    src={`https://avatars1.githubusercontent.com/srajankumar`}
+                    src=""
                     alt="content"
                   />
                   <h2 className="text-lg font-poppins text-gray-900 font-medium title-font ">
