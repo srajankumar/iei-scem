@@ -5,7 +5,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <div>
-      <header className="fixed font-bold w-full backdrop-blur-sm text-black dark:text-white body-font">
+      <header className="fixed z-50 font-bold w-full backdrop-blur-sm text-black dark:text-white body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <Link
             href="/"

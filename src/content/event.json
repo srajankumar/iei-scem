@@ -1,15 +1,15 @@
 [
   {
-    "username": "srajankumar",
     "name": "Srajan Kumar",
-    "role": "Secretary",
+    "slug": "",
+    "role": "Technical Committee Secretary",
     "linkedin": "https://www.linkedin.com/in/kumarsrajan/",
     "mail": "kumarsrajan02@gmail.com"
   },
   {
     "username": "srajankumar",
     "name": "Srajan Kumar",
-    "role": "Media and Publicity Member",
+    "role": "Technical Committee Secretary",
     "linkedin": "kumarsrajan02@gmail.com",
     "mail": "kumarsrajan02@gmail.com"
   },
@@ -23,7 +23,7 @@
   {
     "username": "srajankumar",
     "name": "Srajan Kumar",
-    "role": "Technical Committee Head",
+    "role": "Technical Committee Secretary",
     "linkedin": "kumarsrajan02@gmail.com",
     "mail": "kumarsrajan02@gmail.com"
   }

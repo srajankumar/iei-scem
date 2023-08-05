@@ -1,5 +1,6 @@
-import React from "react";
+"use client";
 import Image from "next/image";
+import Fade from "react-reveal/Fade";
 
 const Hero = () => {
   return (
@@ -13,8 +14,10 @@ const Hero = () => {
           height={500}
         ></Image>
         <div className="flex justify-center leading-relaxed flex-col items-center">
-          <p> The Institution of Engineers (India)</p>
-          <p>CSE Sahyadri Student Chapter</p>
+          <Fade left cascade>
+            <h1> The Institution of Engineers (India)</h1>
+            <h2>CSE Sahyadri Student Chapter</h2>
+          </Fade>
         </div>
       </div>
     </div>
