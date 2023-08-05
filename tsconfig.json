@@ -28,8 +28,6 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/components/Team.jsx",
-    "src/components/Events.jsx",
     "src/components/Navbar.jsx"
   ],
   "exclude": ["node_modules"]

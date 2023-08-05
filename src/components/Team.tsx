@@ -10,8 +10,8 @@ const Team = () => {
             Core Members
           </h1>
           <div className="flex flex-wrap -m-4">
-            {Object.values(data).map((item) => (
-              <div className="lg:w-1/4 sm:w-1/2 w-full p-4">
+            {Object.values(data).map((item, index) => (
+              <div key={index} className="lg:w-1/4 sm:w-1/2 w-full p-4">
                 <div className="flex flex-col justify-center items-center border-2 bg-[#fefefe] bg-opacity-5 backdrop-blur-xl p-6 rounded-lg">
                   <img
                     className="h-40 rounded-full w-40 object-cover object-center mb-6"
