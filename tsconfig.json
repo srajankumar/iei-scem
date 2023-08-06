@@ -28,7 +28,16 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/components/Navbar.jsx"
+    "src/components/Navbar.tsx",
+    "src/components/Background.jsx",
+    "src/components/Events.jsx",
+    "src/components/Team.jsx",
+    "src/components/Hero.jsx",
+    "src/components/About.jsx",
+    "src/components/Hero.jsx",
+    "src/components/Hero.jsx",
+    "src/components/Team.jsx",
+    "src/components/Team.jsx"
   ],
   "exclude": ["node_modules"]
 }
