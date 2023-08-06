@@ -42,7 +42,9 @@ const Team = () => {
     <div className="min-h-screen">
       <section className="text-gray-600 body-font">
         <div className="md:px-5 py-24 mx-auto">
-          <h1 className="font-poppins text-black text-3xl mb-5 py-5">Team</h1>
+          <h1 className="font-poppins text-black text-3xl mb-5 py-5 font-bold">
+            Team
+          </h1>
 
           <div className="flex flex-wrap -m-4">
             <Slide bottom delay={200}>
@@ -116,7 +118,7 @@ const Team = () => {
             </Slide>
           </div>
 
-          <h1 className="font-poppins my-5 text-black text-3xl py-5">
+          <h1 className="font-poppins my-5 font-bold text-black text-3xl py-5">
             Core Members
           </h1>
 

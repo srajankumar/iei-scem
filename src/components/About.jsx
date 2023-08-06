@@ -7,7 +7,7 @@ const About = () => {
     <div className="md:pt-32 pt-20 min-h-[90vh]">
       <section className="flex flex-col body-font">
         <div className="container md:px-5 mx-auto">
-          <h1 className="font-poppins text-black text-2xl py-5">
+          <h1 className="font-poppins font-bold text-black text-2xl py-5">
             About IEI Student Chapter (CSE)
           </h1>
           <Fade top>
@@ -27,7 +27,7 @@ const About = () => {
           </Fade>{" "}
         </div>
         <div className="container md:px-5 py-5 mx-auto">
-          <h1 className="font-poppins text-black text-2xl py-5">
+          <h1 className="font-poppins font-bold text-black text-2xl py-5">
             About IEI-Institution of Engineers (India)
           </h1>
           <Fade delay={400} bottom>

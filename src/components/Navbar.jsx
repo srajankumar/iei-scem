@@ -23,39 +23,39 @@ const Navbar = () => {
             <ul id="menu">
               <Link
                 href="/"
-                className="text-2xl py-5 hover:underline underline-offset-4"
+                className="text-xl py-5 hover:underline underline-offset-4"
                 onClick={closeMenu}
               >
                 Home
               </Link>
               <Link
                 href="#about"
-                className="text-2xl py-5 hover:underline underline-offset-4"
+                className="text-xl py-5 hover:underline underline-offset-4"
                 onClick={closeMenu}
               >
                 About Us
               </Link>
               <Link
                 href="#team"
-                className="text-2xl py-5 hover:underline underline-offset-4"
+                className="text-xl py-5 hover:underline underline-offset-4"
                 onClick={closeMenu}
               >
                 Team
               </Link>
               <Link
                 href="#events"
-                className="text-2xl py-5 hover:underline underline-offset-4"
+                className="text-xl py-5 hover:underline underline-offset-4"
                 onClick={closeMenu}
               >
                 Events
               </Link>
-              {/* <Link
+              <Link
                 href="gallery"
-                className="text-2xl py-5 hover:underline underline-offset-4"
+                className="text-xl py-5 hover:underline underline-offset-4"
                 onClick={closeMenu}
               >
                 Gallery
-              </Link> */}
+              </Link>
             </ul>
           </div>
         </nav>
@@ -98,12 +98,12 @@ const Navbar = () => {
               >
                 Events
               </Link>
-              {/* <Link
+              <Link
                 href="gallery"
                 className="mr-10 focus:underline focus:underline-offset-8 hover:underline underline-offset-4"
               >
                 Gallery
-              </Link> */}
+              </Link>
             </nav>
           </div>
         </header>
