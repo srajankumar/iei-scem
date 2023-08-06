@@ -28,16 +28,16 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/components/Navbar.tsx",
-    "src/components/Background.jsx",
-    "src/components/Events.jsx",
-    "src/components/Team.jsx",
-    "src/components/Hero.jsx",
-    "src/components/About.jsx",
-    "src/components/Hero.jsx",
-    "src/components/Hero.jsx",
-    "src/components/Team.jsx",
-    "src/components/Team.jsx"
+    "src/components/Navbar.jsx",
+    "src/components/Background.tsx",
+    "src/components/Events.tsx",
+    "src/components/Team.tsx",
+    "src/components/Hero.tsx",
+    "src/components/About.tsx",
+    "src/components/Hero.tsx",
+    "src/components/Hero.tsx",
+    "src/components/Team.tsx",
+    "src/components/Team.tsx"
   ],
   "exclude": ["node_modules"]
 }
