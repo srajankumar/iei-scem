@@ -39,16 +39,16 @@ const Team = () => {
   const sortedTeamMembers = Object.values(data).sort(compareRoles);
 
   return (
-    <div className="h-screen">
+    <div className="min-h-screen">
       <section className="text-gray-600 body-font">
-        <div className="container md:px-5 py-24 mx-auto">
+        <div className="md:px-5 py-24 mx-auto">
           <h1 className="font-poppins text-black text-3xl mb-5 py-5">Team</h1>
 
           <div className="flex flex-wrap -m-4">
             <Slide bottom delay={200}>
               <div className="lg:w-1/4 sm:w-1/2 w-full p-4">
                 <Link
-                  href="https://www.linkedin.com/in/nagesh-h-r-86945143?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQlKe3JyzRwiJK2BWoFPXuw%3D%3D"
+                  href="https://www.linkedin.com/in/dr-rajesha-s-6a343b73/"
                   target="_blank"
                   className="flex hover:shadow-2xl flex-col justify-center items-center border-2 bg-[#fefefe] bg-opacity-5 backdrop-blur-xl p-6 rounded-2xl"
                 >
@@ -56,14 +56,14 @@ const Team = () => {
                     height={500}
                     width={500}
                     className="h-40 rounded-full w-40 object-cover object-center mb-6"
-                    src=""
+                    src="/assets/team/principal.jpg"
                     alt="content"
                   />
                   <h2 className="text-lg font-poppins text-gray-900 font-medium title-font ">
-                    Dr. Nagesh HR
+                    Dr. Rajesha S
                   </h2>
                   <h3 className="tracking-widest text-indigo-500 my-1 text-xs font-medium title-font">
-                    President
+                    Principal
                   </h3>
                 </Link>
               </div>
@@ -71,7 +71,7 @@ const Team = () => {
             <Slide bottom delay={400}>
               <div className="lg:w-1/4 sm:w-1/2 w-full p-4">
                 <Link
-                  href="https://www.linkedin.com/in/harisha-achar-838b1462?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTnEWR4cfTkuzI%2FNwgU26bA%3D%3D"
+                  href="https://www.linkedin.com/in/nagesh-h-r-86945143/"
                   target="_blank"
                   className="flex hover:shadow-2xl flex-col justify-center items-center border-2 bg-[#fefefe] bg-opacity-5 backdrop-blur-xl p-6 rounded-2xl"
                 >
@@ -79,7 +79,30 @@ const Team = () => {
                     width={500}
                     height={500}
                     className="h-40 rounded-full w-40 object-cover object-center mb-6"
-                    src=""
+                    src="/assets/team/hod-cse.jpg"
+                    alt="content"
+                  />
+                  <h2 className="text-lg font-poppins text-gray-900 font-medium title-font ">
+                    Dr. Nagesh H R
+                  </h2>
+                  <h3 className="tracking-widest text-indigo-500 my-1 text-xs font-medium title-font">
+                    Head of the Department, CSE
+                  </h3>
+                </Link>
+              </div>
+            </Slide>
+            <Slide bottom delay={600}>
+              <div className="lg:w-1/4 sm:w-1/2 w-full p-4">
+                <Link
+                  href="https://www.linkedin.com/in/harisha-achar-838b1462/"
+                  target="_blank"
+                  className="flex hover:shadow-2xl flex-col justify-center items-center border-2 bg-[#fefefe] bg-opacity-5 backdrop-blur-xl p-6 rounded-2xl"
+                >
+                  <Image
+                    width={500}
+                    height={500}
+                    className="h-40 rounded-full w-40 object-cover object-top mb-6"
+                    src="/assets/team/faculty-advisor.jpg"
                     alt="content"
                   />
                   <h2 className="text-lg font-poppins text-gray-900 font-medium title-font ">

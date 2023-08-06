@@ -29,6 +29,13 @@ const Navbar = () => {
                 Home
               </Link>
               <Link
+                href="#about"
+                className="text-2xl py-5 hover:underline underline-offset-4"
+                onClick={closeMenu}
+              >
+                About Us
+              </Link>
+              <Link
                 href="#team"
                 className="text-2xl py-5 hover:underline underline-offset-4"
                 onClick={closeMenu}
@@ -62,7 +69,7 @@ const Navbar = () => {
               className="flex title-font font-medium items-center mb-4 md:mb-0"
             >
               <Image
-                src="/iei-light.png"
+                src="/assets/iei-logo.png"
                 alt="logo"
                 width={500}
                 height={500}
@@ -73,6 +80,12 @@ const Navbar = () => {
             </Link>
 
             <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+              <Link
+                href="#about"
+                className="mr-10 focus:underline focus:underline-offset-8  hover:underline underline-offset-4"
+              >
+                About Us
+              </Link>
               <Link
                 href="#team"
                 className="mr-10 focus:underline focus:underline-offset-8  hover:underline underline-offset-4"
