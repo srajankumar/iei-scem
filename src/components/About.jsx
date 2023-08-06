@@ -24,7 +24,7 @@ const About = () => {
           </Fade>
           <Fade delay={200} bottom>
             <p className="font-bold py-2">Chapter Code: 575007/SCEM/CS</p>
-          </Fade>{" "}
+          </Fade>
         </div>
         <div className="container md:px-5 py-5 mx-auto">
           <h1 className="font-poppins font-bold text-black text-2xl py-5">
@@ -35,7 +35,7 @@ const About = () => {
               The Institution of Engineers (India) is the national organization
               of engineers in India. The Institution of Engineers (India) has
               more than one million members in 15 engineering disciplines in 125
-              centers or chapters in India and overseas; it is the world's
+              centers or chapters in India and overseas; it is the world&apos;s
               largest multi-disciplinary engineering professional society in the
               engineering and technology world. The Institution of Engineers
               (India) was established in 1920 in Kolkata, West Bengal, and is
