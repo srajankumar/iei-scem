@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Cross-Platform Application Development Workshop",
+    "image": "cross-platform-application-development/cover.jpg",
+    "date": "21 July 2023",
+    "report": "cross-platform-application-development/report.pdf"
+  },
+  {
+    "name": "Cyber Tuesday: Web Security Alchemy Workshop",
+    "image": "/cyber-tuesday/cover.jpg",
+    "date": "08 August 2023",
+    "register": "https://forms.gle/Hh7La8TxVs7CjPuy9"
+  }
+]

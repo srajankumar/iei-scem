@@ -43,7 +43,7 @@ const Navbar = () => {
                 Team
               </Link>
               <Link
-                href="#events"
+                href="/events"
                 className="text-xl py-5 hover:underline underline-offset-4"
                 onClick={closeMenu}
               >
@@ -93,7 +93,7 @@ const Navbar = () => {
                 Team
               </Link>
               <Link
-                href="#events"
+                href="/events"
                 className="mr-10 focus:underline focus:underline-offset-8 hover:underline underline-offset-4"
               >
                 Events

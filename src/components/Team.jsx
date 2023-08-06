@@ -213,6 +213,12 @@ const Team = () => {
               </div>
             ))}
           </div>
+
+          <div className="font-poppins w-full text-center my-5 font-bold text-black text-sm hover:underline underline-offset-4 py-5">
+            <a href="/assets/members23.pdf" target="_blank">
+              view all members
+            </a>
+          </div>
         </div>
       </section>
     </div>
