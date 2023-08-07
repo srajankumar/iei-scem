@@ -7,12 +7,12 @@
     "mail": "kumarsrajan02@gmail.com"
   },
   {
-    "username": "CheetahCodes21",
-    "name": "Maroor Chethan Pai",
-    "role": "Technical Committee Lead",
-    "linkedin": "https://www.linkedin.com/in/champaion-21-mcpai/",
-    "mail": "chethan.cs21@sahyadri.edu.in"
-  },  
+    "username": "shannonpereira",
+    "name": "Shannon Pereira",
+    "role": "Working Committee Member",
+    "linkedin": "https://www.linkedin.com/in/shannon-pereira-b999b7228",
+    "mail": "shannonpereira971@gmail.com"
+  },
   {
     "username": "TejasNayak42",
     "name": "Tejas Nayak B",
@@ -21,11 +21,18 @@
     "mail": "tejasnayak1917@gmail.com"
   },
   {
-    "username": "shannonpereira",
-    "name": "Shannon Pereira",
+    "username": "stranger-creator",
+    "name": "Suhas",
+    "role": "Publication and Reports Member",
+    "linkedin": "https://www.linkedin.com/in/suhas-8487b0228",
+    "mail": "raosuhas0@gmail.com"
+  },
+  {
+    "username": "prateekmlg-1907",
+    "name": "Prateek Malagund",
     "role": "Working Committee Member",
-    "linkedin": "https://www.linkedin.com/in/shannon-pereira-b999b7228",
-    "mail": "shannonpereira971@gmail.com"
+    "linkedin": "https://www.linkedin.com/in/prateek-malagund-702027222/",
+    "mail": "prateekmalagund@gmail.com"
   },
   {
     "username": "SudeepNAIK15",
@@ -47,5 +54,12 @@
     "role": "Media and Publicity Secretary",
     "linkedin": "https://www.linkedin.com/in/aparna-baliga-m-764029229",
     "mail": "aparnabaligaperla@gmail.com"
+  },
+  {
+    "username": "CheetahCodes21",
+    "name": "Maroor Chethan Pai",
+    "role": "Technical Committee Member",
+    "linkedin": "https://www.linkedin.com/in/champaion-21-mcpai/",
+    "mail": "chethan.cs21@sahyadri.edu.in"
   }
 ]

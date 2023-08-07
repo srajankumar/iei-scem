@@ -10,12 +10,12 @@ const Team = () => {
       "Secretary",
       "Associate Secretary",
       "Technical Committee Head",
-      "Technical Committee Secretary",
       "Working Committee Head",
-      "Working Committee Secretary",
       "Media and Publicity Head",
-      "Media and Publicity Secretary",
       "Publication and Reports Head",
+      "Technical Committee Secretary",
+      "Working Committee Secretary",
+      "Media and Publicity Secretary",
       "Publication and Reports Secretary",
     ];
 
