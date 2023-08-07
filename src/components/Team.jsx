@@ -236,7 +236,7 @@ const Team = () => {
                     alt="content"
                   />
                   <h2 className="text-lg font-poppins text-gray-900 font-medium title-font ">
-                    Members
+                    Other Members
                   </h2>
                 </Link>
               </div>
