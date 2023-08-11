@@ -27,9 +27,9 @@ const Team = () => {
       </div>
       <section className="text-gray-600 body-font">
         <div className="container px-10 pt-20 mx-auto">
-          <h1 className="font-poppins text-black text-3xl py-5">
+          {/* <h1 className="font-poppins text-black text-3xl py-5">
             Upcoming Events
-          </h1>
+          </h1> */}
           <div className="flex flex-wrap -m-4">
             {upcomingEvents.map((item, index) => (
               <div key={index} className="lg:w-1/4 sm:w-1/2 w-full p-4">
